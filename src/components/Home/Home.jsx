@@ -1,4 +1,5 @@
 
+import { Outlet } from 'react-router-dom';
 import Blogs from '../Blogs/Blogs';
 import Cover from '../Cover/Cover';
 import Creative from '../Creative/Creative';
@@ -20,7 +21,9 @@ const Home = () => {
             <Testimonials></Testimonials>
             <Blogs></Blogs>
             <Updates></Updates>
+            <Outlet />
             <Footer></Footer>
+            
         </div>
     );
 };

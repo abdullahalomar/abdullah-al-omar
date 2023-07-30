@@ -1,6 +1,6 @@
 import '../Cover/Cover.css'
 import shape1 from '/public/assets/img/hero/shape-1.png'
-import hero2 from '/public/assets/img/hero/hero-2.png'
+import hero2 from '/public/assets/img/hero/profile.png'
 
 const Cover = () => {
     return (
@@ -13,7 +13,12 @@ const Cover = () => {
       </div>
       <div className="tp-hero-wapper">
          <div className="container">
-            <div className="row align-items-center">
+            <div className="row">
+            <div className="col-xl-5 col-lg-5">
+                  <div className="tp-hero-big-img wow fadeInRight"  data-wow-duration=".7s" data-wow-delay="1.2s">
+                     <img src={hero2} alt=""/>
+                  </div>
+               </div>
                <div className="col-xl-7 col-lg-7">
                   <div className="tp-hero-content">
                      <div className="tp-hero-text">
@@ -40,11 +45,7 @@ const Cover = () => {
                      </div>
                   </div>
                </div>
-               <div className="col-xl-5 col-lg-5">
-                  <div className="tp-hero-big-img wow fadeInRight"  data-wow-duration=".7s" data-wow-delay="1.2s">
-                     <img src={hero2} alt=""/>
-                  </div>
-               </div>
+               
             </div>
          </div>
       </div>

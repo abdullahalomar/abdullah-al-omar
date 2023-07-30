@@ -22,15 +22,7 @@ const Header = () => {
                   <div className="tp-main-menu">
                      <nav id="mobile-menu">
                         <ul>
-                           <li className="has-dropdown"><a href="index.html">Home</a> 
-                              <ul className="submenu text-start">
-                                 <li><a href="index.html">Creative Agency</a></li>
-                                 <li><a href="index-2.html">Personal Portfolio</a></li>
-                                 <li><a href="index-3.html">Startup Business</a></li>
-                                 <li><a href="index-4.html">Digital Agency</a></li>
-                                 <li><a href="index-5.html">Business Advisor</a></li>
-                                 <li><a href="index-6.html">IT Service Agency</a></li>
-                              </ul>
+                           <li className="has-dropdown"><a href="/">Home</a> 
                            </li>
                            <li className="has-dropdown "><a href="portfolio.html">Portfolio</a> 
                               <ul className="submenu text-start">
@@ -68,7 +60,7 @@ const Header = () => {
                                  <li><a href="blog-details.html">Blog Details</a></li>
                               </ul>
                            </li>
-                           <li><a href="contact.html">Contact</a></li>
+                           <li><a href="/contact">Contact</a></li>
                         </ul>
                      </nav>
                   </div>
