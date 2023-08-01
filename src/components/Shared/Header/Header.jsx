@@ -1,4 +1,4 @@
-import '../Header/Header.css'
+import './Header.css'
 import logoBlue from '/public/assets/img/logo/logo-blue.png'
 import logo from '/public/assets/img/logo/logo.png'
 import logoWhite from '/public/assets/img/logo/logo-white.png'
