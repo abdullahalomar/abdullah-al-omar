@@ -1992,7 +1992,7 @@ input[type=color] {
 }
 
 .black-bg {
-  background: var(--tp-common-black);
+  background: rgb(103, 116, 235);
 }
 
 .theme-bg {
@@ -4510,7 +4510,7 @@ input[type=color] {
 
 .tp-hero-icon-five {
   position: absolute;
-  bottom: -13px;
+  bottom: 50px;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .tp-hero-icon-five {
@@ -4789,7 +4789,7 @@ input[type=color] {
 .shape-two {
   position: absolute;
   top: -100px;
-  left: 0;
+  right: 0;
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
@@ -13033,12 +13033,12 @@ blockquote cite::before {
 
 .tp-clip-height-one {
   height: 95px;
-  background: #292930;
+  background: rgb(103, 116, 235);
 }
 
 .tp-clip-height-two {
   height: 130px;
-  background: #292930;
+  background: rgb(103, 116, 235);
   overflow: hidden;
   position: relative;
   z-index: 222;

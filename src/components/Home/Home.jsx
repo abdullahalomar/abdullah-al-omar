@@ -5,6 +5,7 @@ import Projects from '../Projects/Projects';
 import Services from '../Services/Services';
 import Testimonials from '../Testimonials/Testimonials';
 import Updates from '../Updates/Updates';
+import Cv from '../Cv/Cv';
 
 
 const Home = () => {
@@ -15,6 +16,7 @@ const Home = () => {
             <Services></Services>
             <Projects></Projects>
             <Testimonials></Testimonials>
+            <Cv></Cv>
             <Blogs></Blogs>
             <Updates></Updates>
         </div>

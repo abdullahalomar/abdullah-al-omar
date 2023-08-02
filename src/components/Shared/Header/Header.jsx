@@ -1,10 +1,5 @@
 import './Header.css'
-import logoBlue from '/public/assets/img/logo/logo-blue.png'
-// import logo from '/public/assets/img/logo/logo.png'
-// import logoWhite from '/public/assets/img/logo/logo-white.png'
-// import insta1 from '/public/assets/img/offcanvas/insta-1.jpg'
-// import insta2 from '/public/assets/img/offcanvas/insta-2.jpg'
-// import insta4 from '/public/assets/img/offcanvas/insta-4.jpg'
+import logoBlue from '/public/assets/img/logo/letterlogo.png'
 
 const Header = () => {
     return (
@@ -15,56 +10,24 @@ const Header = () => {
             <div className="row align-items-center header-space-two">
                <div className="col-xxl-3 col-xl-3 col-lg-3">
                   <div className="tp-logo text-start">
-                     <a href="index.html"><img src={logoBlue} alt=""/></a>
+                     <a href="/"><img src={logoBlue} alt=""/></a>
                   </div>
                </div>
                <div className="col-xxl-6 col-xl-6 col-lg-6">
                   <div className="tp-main-menu text-center">
                      <nav id="mobile-menu">
                         <ul>
-                           <li className="has-dropdown"><a href="/">Home</a> 
-                              <ul className="submenu text-start">
-                                 <li><a href="index.html">Creative Agency</a></li>
-                                 <li><a href="index-2.html">Personal Portfolio</a></li>
-                                 <li><a href="index-3.html">Startup Business</a></li>
-                                 <li><a href="index-4.html">Digital Agency</a></li>
-                                 <li><a href="index-5.html">Business Advisor</a></li>
-                                 <li><a href="index-6.html">IT Service Agency</a></li>
-                              </ul>
-                           </li>
+                           <li className="has-dropdown"><a href="/">Home</a></li>
                            <li className="has-dropdown "><a href="portfolio.html">Portfolio</a> 
                               <ul className="submenu text-start">
-                                 <li><a href="portfolio.html">Portfolio Full Width</a></li>
                                  <li><a href="portfolio-2.html">Portfolio Filter 01</a></li>
-                                 <li><a href="portfolio-3.html">Portfolio Filter 02</a></li>
-                                 <li><a href="portfolio-mesonary.html">Portfolio Masonry</a></li>
                                  <li><a href="portfolio-details.html">Portfolio Details</a></li>
                               </ul>
                            </li>
-                           <li className="has-dropdown has-mega-menu "><a href="#">Pages</a>
-                              <ul className="submenu text-start">
-                                 <li><a href="about.html">About</a></li>
-                                 <li><a href="about-me.html">About Me</a></li>
-                                 <li><a href="job.html">Job</a></li>
-                                 <li><a href="job-details.html">Job Details</a></li>
-                                 <li><a href="product.html">Product</a></li>
-                                 <li><a href="product-details.html">Product Details</a></li>
-                                 <li><a href="service-1.html">Service 01</a></li>
-                                 <li><a href="service-2.html">Service 02</a></li>
-                                 <li><a href="service-3.html">Service 03</a></li>
-                                 <li><a href="service-4.html">Service 04</a></li>
-                                 <li><a href="service-details.html">Service Details</a></li>
-                                 <li><a href="testimonial.html">Testimonial</a></li>
-                                 <li><a href="price.html">Price</a></li>
-                                 <li><a href="faq.html">Faq</a></li>
-                                 <li><a href="login.html">Login</a></li>
-                                 <li><a href="registration.html">Register</a></li>
-                                 <li><a href="404.html">404</a></li>
-                              </ul>
-                           </li>
+                           <li className="has-dropdown has-mega-menu "><a href="/about">About</a></li>
                            <li className="has-dropdown "><a href="blog.html">Blog</a>
                               <ul className="submenu text-start">
-                                 <li><a href="blog.html">Blog Sidebar</a></li>
+                                 <li><a href="/blogs">Blogs</a></li>
                                  <li><a href="/blogDetails">Blog Details</a></li>
                               </ul>
                            </li>
