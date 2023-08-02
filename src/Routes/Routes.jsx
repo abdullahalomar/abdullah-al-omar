@@ -5,6 +5,7 @@ import {
 import Main from "../Layout/Main";
 import Home from "../components/Home/Home";
 import Contact from "../components/Contact/Contact";
+import BlogDetails from "../components/BlogDetails/BlogDetails";
 
 
   export const router = createBrowserRouter([
@@ -19,7 +20,11 @@ import Contact from "../components/Contact/Contact";
         {
             path: "contact",
             element: <Contact></Contact>
-        }
+        },
+        {
+            path: "blogDetails",
+            element: <BlogDetails></BlogDetails>
+        },
       ]
     },
   ]);
