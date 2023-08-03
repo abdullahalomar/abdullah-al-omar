@@ -1,4 +1,4 @@
-import copuright from '/public/assets/img/copyright/copyright-logo.png'
+import logo from '/public/assets/img/logo/letter-logo-black.png'
 
 const Footer = () => {
     return (
@@ -67,7 +67,7 @@ const Footer = () => {
                   <div className="row align-items-center">
                      <div className="col-xl-4 col-lg-4 col-md-4 col-12">
                         <div className="tp-copyright-logo mt-35">
-                           <a href="index.html"><img src={copuright} alt=""/></a>
+                           <a href="index.html"><img src={logo} alt=""/></a>
                         </div>
                      </div>
                      <div className="col-xl-8 col-lg-8 col-md-8 col-12">

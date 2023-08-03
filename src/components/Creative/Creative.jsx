@@ -26,15 +26,11 @@ const Creative = () => {
                <div className="col-lg-12">
                   <div className="tp-creative-box text-center">
                      <div className="tp-creative-content mb-110">
-                        <h4 className="tp-creative-title">We deploy world-class <b>Creative Design team</b> on demand.
+                        <h4 className="tp-creative-title">We deploy world-class <b>Creative Work</b> on demand.
                            that can design, build, ship and
                            scale your vision in the most efficient way.</h4>
                      </div>
-                     <div className="tp-play-button mb-150">
-                        <a className="popup-video" href="https://youtu.be/Um1RqC-b4JA"><i
-                              className="fal fa-play"></i></a>
-                        <span>Play Take a look behind the scenes</span>
-                     </div>
+                     
                   </div>
                </div>
             </div>
@@ -60,7 +56,7 @@ const Creative = () => {
                               <i className="flaticon-clipboard"></i>
                            </div>
                            <div className="counter-text">
-                              <span>1200+</span>
+                              <span>25+</span>
                               <p className="m-0">Complete Project</p>
                            </div>
                         </div>
@@ -73,7 +69,7 @@ const Creative = () => {
                               <i className="flaticon-setting"></i>
                            </div>
                            <div className="counter-text">
-                              <span>1800+</span>
+                              <span>900+</span>
                               <p className="m-0">Design Resource</p>
                            </div>
                         </div>

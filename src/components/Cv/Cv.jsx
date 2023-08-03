@@ -19,7 +19,7 @@ const Cv = () => {
          <div className="row">
             <div className="col-xl-6 col-lg-6 col-md-6 col-12">
                <div className="tp-cta-section-title-box pl-60 pt-180 z-index wow tpfadeUp" data-wow-duration=".3s" data-wow-delay=".6s">
-                  <h5 className="tp-subtitle">What We Do?</h5>
+                  <h5 className="tp-subtitle text-white">What We Do?</h5>
                   <h2 className="tp-title tp-white-text pb-10">Hi,👋 I am experts in every aspect lifecycle </h2>
                   <a className="tp-btn-border" href="contact.html">Download CV <i className="far fa-download"></i></a>
                </div>

@@ -23,7 +23,7 @@ const Projects = () => {
           <div className="row align-items-center mb-15">
             <div className="col-xl-5 col-lg-12 col-md-12">
               <div className="tp-project-section-box">
-                <h5 className="tp-subtitle">Our Project</h5>
+                <h5 className="tp-subtitle">My Project</h5>
                 <h2 className="tp-title">Creative work. </h2>
               </div>
             </div>
@@ -112,7 +112,7 @@ const Projects = () => {
                           </a>
                         </h2>
                         <p>
-                          At Collax we specialize in designing, building,
+                          Specialize in designing, building,
                           shipping...
                         </p>
                         <a className="tp-btn-sm" href="contact.html">
@@ -199,7 +199,7 @@ const Projects = () => {
                           </a>
                         </h2>
                         <p>
-                          At Collax we specialize in designing, building,
+                          Specialize in designing, building,
                           shipping...
                         </p>
                         <a className="tp-btn-sm" href="portfolio-details.html">
@@ -286,7 +286,7 @@ const Projects = () => {
                           </a>
                         </h2>
                         <p>
-                          At Collax we specialize in designing, building,
+                          Specialize in designing, building,
                           shipping...
                         </p>
                         <a className="tp-btn-sm" href="portfolio-details.html">
@@ -373,7 +373,7 @@ const Projects = () => {
                           </a>
                         </h2>
                         <p>
-                          At Collax we specialize in designing, building,
+                          Specialize in designing, building,
                           shipping...
                         </p>
                         <a className="tp-btn-sm" href="portfolio-details.html">

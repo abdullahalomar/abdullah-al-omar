@@ -29,21 +29,22 @@ const Cover = () => {
                         
                      </div>
                      <div className="tp-hero-section-box-five__title pb-45">
-                        <h3 className="tp-hero-bs-title wow tpfadeUp" data-wow-duration=".5s" data-wow-delay=".7s">Business Planing
+                        <h3 className="tp-hero-bs-title wow tpfadeUp" data-wow-duration=".5s" data-wow-delay=".7s">Web Designer &
                            <span className="tp-highlight">
                               <svg className="highlight-space" width="266" height="12" viewBox="0 0 266 12" fill="none" xmlns="http://www.w3.org/2000/svg">
                               <path d="M0 0L266 12H0V0Z" fill="#FFDC60"/>
                               </svg>
-                              <i>Advisors</i>
+                              <i>Developer</i>
                            </span>
                         </h3>
-                        <p className="wow tpfadeUp" data-wow-duration=".7s" data-wow-delay=".9s">At collax we specialize in designing, building, shipping and scaling <br/> beautiful, usable
-                           products with blazing.</p>
+                        <p className="wow tpfadeUp" data-wow-duration=".7s" data-wow-delay=".9s">Web designer & developer with a flair for creativity and expertise in crafting stunning, user-friendly websites that leave a lasting impression.</p>
                      </div>
                      <div className="tp-hero-section-box-five__input  wow tpfadeUp" data-wow-duration=".9s" data-wow-delay="1s">
                         <form action="#">
                            <input type="text" placeholder="abdullahalomar048@gmail.com"/>
-                           <button className="tp-btn-sky" type="submit">Free Consultation</button>
+                           <button className="tp-btn-sky" type="submit">
+                              Contact By Mail 
+                           </button>
                         </form>
                      </div>
                   </div>
@@ -59,10 +60,10 @@ const Cover = () => {
             </div>
             <div className="tp-hero-icon-five">
                <div className="tp-hero-social bp-hero-social tp-hero-social-bg-color">
-                  <a className="social-icon-1" href="#"><i className="fab fa-facebook-f social-icon-1"></i><span>Facebook</span></a>
-                  <a className="social-icon-3" href="#"><i className="fab fa-youtube social-icon-3"></i><span>youtube</span></a>
-                  <a className="social-icon-2" href="#"><i className="fab fa-twitter social-icon-2"></i><span>twitter</span></a>
-                  <a className="social-icon-2 d-md-none" href="#"><i className="fab fa-behance social-icon-2"></i><span>twitter</span></a>
+                  <a className="social-icon-1" href="https://www.facebook.com/Abdullahalomar2000" target='blank'><i className="fab fa-facebook-f social-icon-1"></i><span>Facebook</span></a>
+                  <a className="social-icon-3" href="https://www.youtube.com/@AbdullahAlOmar" target='blank'><i className="fab fa-youtube social-icon-3"></i><span>youtube</span></a>
+                  <a className="social-icon-2" href="https://www.linkedin.com/in/abdullah-al-omar-06b269237/" target='blank'><i className="fab fa-linkedin social-icon-2"></i><span>linkedin</span></a>
+                  
                </div>
             </div>
          </div>
